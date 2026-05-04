@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, Save, Loader2, Image as ImageIcon, Type, Layout, User } from 'lucide-react';
+import { ArrowLeft, Save, Loader2, Image as ImageIcon, Type, Layout, User, Tag } from 'lucide-react';
 import Link from 'next/link';
 import { createClient } from '@/utils/supabase/client';
 

@@ -10,6 +10,7 @@ export default function Contact() {
     const [submitted, setSubmitted] = useState(false);
     const [formData, setFormData] = useState({
         name: '',
+        email: '',
         type: 'Advertising Inquiry',
         message: ''
     });
